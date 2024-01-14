@@ -1,7 +1,12 @@
-.permahover{
-    background-color: black;
-}
+.permanent-hover {
+    background-color: #3498db;
+    color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
 
-.box{
-    background-color: aqua;
-}
+  /* Apply styles for the hover state */
+  .permanent-hover:hover,
+  .permanent-hover.permanent-hover-active {
+    background-color: #e74c3c;
+    color: #fff;
+  }
